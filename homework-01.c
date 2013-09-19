@@ -3,10 +3,10 @@
 
 int main(){
 	int n, i, max, maxend, *num;
-	printf("Please enter the number of data£º\n");
+	printf("Please enter the number of data:\n");
 	scanf("%d", &n);
 	num = (int *)malloc(n * sizeof(int));
-	printf("Please enter the data, separated by a space£º\n");
+	printf("Please enter the data, separated by a space:\n");
 	for(i = 0; i < n; i++)
 		scanf("%d", &num[i]);
 	max = num[0];
